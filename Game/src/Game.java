@@ -106,7 +106,7 @@ public class Game extends JPanel{
          }
 	     
         public static void main(String[] args) throws InterruptedException{
-        JFrame frame = new JFrame(" Jay's Worst Optimized Tennis Game Ever. ");
+        JFrame frame = new JFrame(" Tennis ");
         JOptionPane.showMessageDialog(null, " Controls: Use Left Arrow to move left, Right arrow to move right.   Good Luck! ");
         Game game = new Game();
         frame.add(game);
